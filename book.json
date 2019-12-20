@@ -1,0 +1,95 @@
+{
+	"title":"微表单",
+    "description" : "微表单使用帮助手册",
+    "author":"思源时代",
+	"language" : "zh-hans",
+	"root" : ".",
+    "styles": {
+    "website": "styles/website.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css",
+    "epub": "styles/epub.css"
+},
+
+	"plugins": [
+		"hide-element",
+    	"expandable-chapters-small",
+        "expandable-chapters",
+        "todo",
+    	"page-toc-button",
+    	"chapter-fold",
+    	"splitter",
+        "-lunr",
+        "-search",
+    	"search-pro",
+    	"emphasize",
+    	"insert-logo",
+    	"pageview-count",
+    	"tbfed-pagefooter",
+    	"popup",
+    	"-sharing", 
+    	"sharing-plus",
+        "fontsettings",
+        "favicon-absolute",
+        "lightbox",
+        "sectionx",
+        "page-treeview",
+        "auto-scroll-table",
+        "code",
+        "prism",
+        "change_girls"
+        
+
+	],
+
+	"pluginsConfig":{
+		"hide-element":{
+			"elements":[".gitbook-link"]
+		},
+		"insert-logo": {
+        	"url": "/logo.png",
+        	"style": "background: none; max-height: 40px; min-height: 83px"
+    	},
+    	"favicon-absolute":{ 
+            "favicon": "/logo.ico",
+            "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png" 
+        },
+    	"tbfed-pagefooter": {
+            "copyright":"Copyright &copy cd.sysdsoft.cn:4000",
+            "modify_label": "该文章修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "page-treeview": {
+            "copyright": "Copyright &#169; aleen42",
+            "minHeaderCount": "2",
+            "minHeaderDeep": "2"
+        },
+        "code": {
+            "copyButtons": true
+        },
+        "sharing": {
+             "douban": false,
+             "facebook": false,
+             "google": false,
+             "pocket": false,
+             "qq": true,
+             "qzone": false,
+             "twitter": false,
+             "weibo": false,
+          "all": [
+               "qq", "qzone","viber","whatsapp"
+           ]
+       },
+       "change_girls" : {
+            "time" : 5,
+            "urls" : [
+              "/背景图3.png"
+            ]
+       }
+
+	
+
+    
+}
+}
