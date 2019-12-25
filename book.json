@@ -30,15 +30,16 @@
     	"popup",
     	"-sharing", 
     	"sharing-plus",
-        "fontsettings",
-        "favicon-absolute",
-        "lightbox",
-        "sectionx",
-        "page-treeview",
-        "auto-scroll-table",
-        "code",
-        "prism",
-        "change_girls"
+      "fontsettings",
+      "favicon-absolute",
+      "lightbox",
+      "sectionx",
+      "page-treeview",
+      "auto-scroll-table",
+      "code",
+      "prism",
+      "change_girls"
+
         
 
 	],
