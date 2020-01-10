@@ -58,8 +58,8 @@
         },
     	"tbfed-pagefooter": {
             "copyright":"Copyright &copy cd.sysdsoft.cn:4000",
-            "modify_label": "该文章修订时间：",
-            "modify_format": "YYYY-MM-DD HH:mm:ss"
+            "modify_label": "修订时间：",
+            "modify_format": "YYYY-MM-DD"
         },
         "page-treeview": {
             "copyright": "Copyright &#169; aleen42",
@@ -85,10 +85,9 @@
        "change_girls" : {
             "time" : 5,
             "urls" : [
-              "/背景图3.png"
+              "/背景图.png"
             ]
        }
-
 	
 
     
