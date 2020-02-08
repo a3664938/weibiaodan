@@ -1,0 +1,25 @@
+{
+  "name": "weibiaodan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"build": "gitbook build ./content ./docs",
+	"serve": "gitbook serve ./content ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a3664938/weibiaodan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a3664938/weibiaodan/issues"
+  },
+  "homepage": "https://github.com/a3664938/weibiaodan#readme"
+}
