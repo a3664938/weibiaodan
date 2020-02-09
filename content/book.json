@@ -10,21 +10,21 @@
     "pdf": "styles/pdf.css",
     "mobi": "styles/mobi.css",
     "epub": "styles/epub.css"
-},
+    },
 
 	"plugins": [
 		"hide-element",
     	"expandable-chapters-small",
         "expandable-chapters",
         "todo",
-    	"page-toc-button",
+    	
     	"chapter-fold",
     	"splitter",
         "-lunr",
         "-search",
     	"search-pro",
     	"emphasize",
-    	"insert-logo",
+    	
     	"pageview-count",
     	"tbfed-pagefooter",
     	"popup",
@@ -38,13 +38,25 @@
       "auto-scroll-table",
       "code",
       "prism",
-      "change_girls"
+      "change_girls",
+      "theme-fexa"
 
         
 
 	],
+  "variables": {
+        "themeFexa":{
+            "nav":[
+              {"url":"http://cd.sysdsoft.cn:10003/#/formViewList?userId=475FC3FA-9833-416D-A1C5-E1E885E24C23&userOrgDutyId=90BF1987-E638-42BB-B491-69EF774FF1FD&feopapi1=userOrgDutyId,userId,platform&feopapi2=userOrgDutyId,userId&platform=NPF",
+                    "target":"_blank",
+                    "name": "测试服"
+                }
+            ]
+        }
+    },
 
 	"pluginsConfig":{
+
 		"hide-element":{
 			"elements":[".gitbook-link"]
 		},
@@ -53,7 +65,7 @@
         	"style": "background: none; max-height: 40px; min-height: 83px"
     	},
     	"favicon-absolute":{ 
-            "favicon": "/logo.ico",
+            "favicon": "/favicon.ico",
             "appleTouchIconPrecomposed152": "/apple-touch-icon-precomposed-152.png" 
         },
     	"tbfed-pagefooter": {
@@ -87,9 +99,12 @@
             "urls" : [
               "/背景图.png"
             ]
-       }
-	
-
-    
+       },
+       "theme-fexa":{
+            "search-placeholder":"输入关键字搜索",
+            "logo":"/logo.png", 
+            "favicon": "/favicon.ico"
+        }   
 }
+
 }
