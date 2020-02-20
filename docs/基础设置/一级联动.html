@@ -65,10 +65,6 @@
                 
             
                 
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-treeview/style.css">
-                
-            
-                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-auto-scroll-table/website.css">
                 
             
@@ -746,6 +742,64 @@
             
         </li>
     
+        <li class="chapter " data-level="1.7" data-path="../接口文档/接口文档.html">
+            
+                <a href="../接口文档/接口文档.html">
+            
+                    
+                    接口文档
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../接口文档/QueryTableExternal.html">
+            
+                <a href="../接口文档/QueryTableExternal.html">
+            
+                    
+                    根据表名及字段名查询数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="../接口文档/QueryTableTreeByTemplateId.html">
+            
+                <a href="../接口文档/QueryTableTreeByTemplateId.html">
+            
+                    
+                    根据模板Id及条件获取数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="../接口文档/QueryTableTreeByWorkFlowId.html">
+            
+                <a href="../接口文档/QueryTableTreeByWorkFlowId.html">
+            
+                    
+                    根据流程Id获取数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
 
     
 
@@ -799,45 +853,37 @@
     
 					<section class="normal markdown-section">
 						
-						<div class="treeview__container"><div class="treeview__container-title"></div><ul>
-<li><div><a href="#1-&#x5EFA;&#x7ACB;&#x300C;&#x4EBA;&#x4E8B;&#x4FE1;&#x606F;&#x8868;&#x300D;">1. &#x5EFA;&#x7ACB;&#x300C;&#x4EBA;&#x4E8B;&#x4FE1;&#x606F;&#x8868;&#x300D;   </a><i></i></div></li>
-<li><div><a href="#2-&#x5EFA;&#x7ACB;&#x4E00;&#x5F20;&#x300C;&#x5956;&#x91D1;&#x8868;&#x300D;">2. &#x5EFA;&#x7ACB;&#x4E00;&#x5F20;&#x300C;&#x5956;&#x91D1;&#x8868;&#x300D;   </a><i></i></div></li>
-<li><div><a href="#3-&#x6570;&#x636E;&#x8054;&#x52A8;">3. &#x6570;&#x636E;&#x8054;&#x52A8;   </a><i></i></div></li>
-<li><div><a href="#4-&#x8FDB;&#x4E00;&#x6B65;&#x4F18;&#x5316;">4. &#x8FDB;&#x4E00;&#x6B65;&#x4F18;&#x5316;   </a><i></i></div></li>
-</ul>
-</div>
-
-<h1 id="&#x4E00;&#x7EA7;&#x8054;&#x52A8;">&#x4E00;&#x7EA7;&#x8054;&#x52A8;</h1>
+						<h1 id="&#x4E00;&#x7EA7;&#x8054;&#x52A8;">&#x4E00;&#x7EA7;&#x8054;&#x52A8;</h1>
 <p>&#x4EBA;&#x4E8B;&#x4FE1;&#x606F;&#x8868;&#x300D;&#x4E2D;&#x5305;&#x62EC;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#x3001;&#x59D3;&#x540D;&#x3001;&#x5E74;&#x9F84;&#x3001;&#x90E8;&#x95E8;&#x7B49;&#x591A;&#x4E2A;&#x5B57;&#x6BB5;&#x3002;</p>
 <p>&#x53E6;&#x4E00;&#x5F20;&#x300C;&#x5956;&#x91D1;&#x8868;&#x300D;&#x4E2D;&#x4E5F;&#x5305;&#x62EC;&#x8FD9;4&#x4E2A;&#x5B57;&#x6BB5;&#xFF0C;&#x9700;&#x8981;&#x5B9E;&#x73B0;&#x8F93;&#x5165;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#xFF0C;&#x5982;&#x679C;&#x8FD9;&#x4E2A;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#x5728;&#x4FE1;&#x606F;&#x8868;&#x5F55;&#x5165;&#x8FC7;&#xFF0C;&#x90A3;&#x4E48;&#x5BF9;&#x5E94;&#x7684;&#x59D3;&#x540D;&#x3001;&#x90E8;&#x95E8;&#x3001;&#x5E74;&#x9F84;&#x5C31;&#x4F1A;&#x76F4;&#x63A5;&#x663E;&#x793A;&#x51FA;&#x6765;&#x3002;</p>
 <font color="blue">&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#x786E;&#x5B9A;&#x4E4B;&#x540E;&#xFF0C;&#x5BF9;&#x5E94;&#x7684;&#x59D3;&#x540D;&#x3001;&#x90E8;&#x95E8;&#x3001;&#x5E74;&#x9F84;&#x90FD;&#x53EF;&#x4EE5;&#x786E;&#x5B9A;&#x3002;&#x56E0;&#x6B64;&#x8BBE;&#x7F6E;&#x4E09;&#x4E2A;&#x4E00;&#x7EA7;&#x8054;&#x52A8;&#xFF0C;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#x2014;&#x59D3;&#x540D;&#xFF1B;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#x2014;&#x90E8;&#x95E8;&#xFF1B;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#x2014;&#x5E74;&#x9F84;&#x3002;</font>
 
 <h2 id="1-&#x5EFA;&#x7ACB;&#x300C;&#x4EBA;&#x4E8B;&#x4FE1;&#x606F;&#x8868;&#x300D;">1. &#x5EFA;&#x7ACB;&#x300C;&#x4EBA;&#x4E8B;&#x4FE1;&#x606F;&#x8868;&#x300D;</h2>
 <p>&#x5176;&#x4E2D;&#x300C;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#x300D;&#x4E3A;&#x5355;&#x884C;&#x6587;&#x672C;&#xFF0C;&#x300C;&#x59D3;&#x540D;&#x300D;&#x4E3A;&#x5355;&#x884C;&#x6587;&#x672C;&#xFF0C;&#x300C;&#x90E8;&#x95E8;&#x300D;&#x4E3A;&#x4E0B;&#x62C9;&#x6846;&#xFF0C;&#x300C;&#x5E74;&#x9F84;&#x300D;&#x4E3A;&#x6570;&#x5B57;&#x5B57;&#x6BB5;</p>
-<p><a href="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;3.jpg" data-lightbox="899d8adb-2e10-40a1-8509-56d87164498f" data-title="&#x6570;&#x636E;&#x5173;&#x8054;3"><img src="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;3.jpg" alt="&#x6570;&#x636E;&#x5173;&#x8054;3"></a></p>
+<p><a href="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;3.jpg" data-lightbox="d1af7c53-578f-4038-9d94-1abf1c241369" data-title="&#x6570;&#x636E;&#x5173;&#x8054;3"><img src="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;3.jpg" alt="&#x6570;&#x636E;&#x5173;&#x8054;3"></a></p>
 <h2 id="2-&#x5EFA;&#x7ACB;&#x4E00;&#x5F20;&#x300C;&#x5956;&#x91D1;&#x8868;&#x300D;">2. &#x5EFA;&#x7ACB;&#x4E00;&#x5F20;&#x300C;&#x5956;&#x91D1;&#x8868;&#x300D;</h2>
 <p>&#x901A;&#x8FC7;&#x586B;&#x5199;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#xFF0C;&#x6765;&#x8054;&#x52A8;&#x8C03;&#x7528;&#x300C;&#x4EBA;&#x4E8B;&#x4FE1;&#x606F;&#x8868;&#x300D;&#x4E2D;&#x7684;&#x76F8;&#x5173;&#x4FE1;&#x606F;&#x3002;&#x300C;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#x300D;&#x7528;&#x5355;&#x884C;&#x6587;&#x672C;&#xFF0C;&#x300C;&#x59D3;&#x540D;&#x300D;&#x7528;&#x5355;&#x884C;&#x6587;&#x672C;&#xFF0C;&#x300C;&#x90E8;&#x95E8;&#x300D;&#x7528;&#x5355;&#x884C;&#x6587;&#x672C;&#xFF0C;&#x300C;&#x5E74;&#x9F84;&#x300D;&#x7528;&#x6570;&#x5B57;&#x5B57;&#x6BB5;&#xFF0C;&#x300C;&#x65E5;&#x671F;&#x300D;&#x7528;&#x65E5;&#x671F;&#x5B57;&#x6BB5;&#xFF0C;&#x300C;&#x5956;&#x91D1;&#x300D;&#x7528;&#x6570;&#x5B57;&#x5B57;&#x6BB5;</p>
 <p>&#x8BF4;&#x660E;&#xFF1A;&#x8F93;&#x5165;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#xFF0C;&#x81EA;&#x52A8;&#x8054;&#x52A8;&#x51FA;&#x59D3;&#x540D;&#x3001;&#x5E74;&#x9F84;&#x3001;&#x624B;&#x673A;&#x53F7;&#x7801;&#x548C;&#x90E8;&#x95E8;&#x4FE1;&#x606F;&#xFF0C;&#x65E0;&#x9700;&#x4E00;&#x4E00;&#x586B;&#x5199;&#x3002;</p>
 <p><font color="red">&#x524D;&#x63D0;&#xFF1A;&#x300C;&#x4EBA;&#x4E8B;&#x4FE1;&#x606F;&#x8868;&#x300D;&#x4E2D;&#x5DF2;&#x5F55;&#x5165;&#x8BE5;&#x5458;&#x5DE5;&#x7F16;&#x53F7;</font>&#x3002;</p>
-<p><a href="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;4.jpg" data-lightbox="e046212c-83f5-4d19-a96c-59648baf7d24" data-title="&#x6570;&#x636E;&#x5173;&#x8054;4"><img src="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;4.jpg" alt="&#x6570;&#x636E;&#x5173;&#x8054;4"></a></p>
+<p><a href="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;4.jpg" data-lightbox="560e43e2-27b2-4724-afca-f443bf3842b9" data-title="&#x6570;&#x636E;&#x5173;&#x8054;4"><img src="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;4.jpg" alt="&#x6570;&#x636E;&#x5173;&#x8054;4"></a></p>
 <h2 id="3-&#x6570;&#x636E;&#x8054;&#x52A8;">3. &#x6570;&#x636E;&#x8054;&#x52A8;</h2>
 <ul>
 <li>&#xFF08;1&#xFF09;&#x300C;&#x59D3;&#x540D;&#x300D;&#x7528;&#x5355;&#x884C;&#x6587;&#x672C;&#xFF0C;&#x56E0;&#x4E3A;&#x4E00;&#x4E2A;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#x5BF9;&#x5E94;&#x7684;&#x59D3;&#x540D;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x6570;&#x636E;&#x3002;&#x8BBE;&#x7F6E;&#x6570;&#x636E;&#x8054;&#x52A8;&#x300C;&#x5458;&#x5DE5;&#x7F16;&#x53F7;-&#x59D3;&#x540D;&#x300D;   </li>
 </ul>
-<p><a href="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;5.jpg" data-lightbox="02e6ca84-35b9-4a7b-a8fe-aa12d2d58a54" data-title="&#x6570;&#x636E;&#x5173;&#x8054;5"><img src="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;5.jpg" alt="&#x6570;&#x636E;&#x5173;&#x8054;5"></a></p>
+<p><a href="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;5.jpg" data-lightbox="10c75366-1cdc-4f2b-a74f-1654c90dca20" data-title="&#x6570;&#x636E;&#x5173;&#x8054;5"><img src="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;5.jpg" alt="&#x6570;&#x636E;&#x5173;&#x8054;5"></a></p>
 <ul>
 <li>&#xFF08;2&#xFF09;&#x300C;&#x90E8;&#x95E8;&#x300D;&#x7528;&#x5355;&#x884C;&#x6587;&#x672C;&#xFF0C;&#x56E0;&#x4E3A;&#x4E00;&#x4E2A;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#x5BF9;&#x5E94;&#x7684;&#x90E8;&#x95E8;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x6570;&#x636E;&#x3002;&#x8BBE;&#x7F6E;&#x6570;&#x636E;&#x8054;&#x52A8;&#x300C;&#x5458;&#x5DE5;&#x7F16;&#x53F7;-&#x90E8;&#x95E8;&#x300D;   </li>
 </ul>
-<p><a href="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;6.jpg" data-lightbox="9afcf005-4df2-4185-a6c1-83a06607d3c9" data-title="&#x6570;&#x636E;&#x5173;&#x8054;6"><img src="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;6.jpg" alt="&#x6570;&#x636E;&#x5173;&#x8054;6"></a></p>
+<p><a href="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;6.jpg" data-lightbox="b24d470a-e0c5-4a64-9b92-21e3912f9e1f" data-title="&#x6570;&#x636E;&#x5173;&#x8054;6"><img src="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;6.jpg" alt="&#x6570;&#x636E;&#x5173;&#x8054;6"></a></p>
 <ul>
 <li>&#xFF08;3&#xFF09;&#x300C;&#x5E74;&#x9F84;&#x300D;&#x7528;&#x6570;&#x5B57;&#x5B57;&#x6BB5;&#xFF0C;&#x56E0;&#x4E3A;&#x4E00;&#x4E2A;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#x5BF9;&#x5E94;&#x7684;&#x5E74;&#x9F84;&#x4E5F;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x6570;&#x636E;&#x3002;&#x8BBE;&#x7F6E;&#x6570;&#x636E;&#x8054;&#x52A8;&#x300C;&#x5458;&#x5DE5;&#x7F16;&#x53F7;-&#x5E74;&#x9F84;&#x300D;  </li>
 </ul>
-<p><a href="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;7.jpg" data-lightbox="ae471414-1f4a-4ded-bd9a-40d394d98dd6" data-title="&#x6570;&#x636E;&#x5173;&#x8054;7"><img src="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;7.jpg" alt="&#x6570;&#x636E;&#x5173;&#x8054;7"></a></p>
+<p><a href="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;7.jpg" data-lightbox="33d24faa-32c3-44de-8d03-7cebe7ac496e" data-title="&#x6570;&#x636E;&#x5173;&#x8054;7"><img src="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;7.jpg" alt="&#x6570;&#x636E;&#x5173;&#x8054;7"></a></p>
 <p>&#x8FD9;&#x6837;&#x5C31;&#x8BBE;&#x7F6E;&#x597D;&#x4E86;&#x3002;&#x6211;&#x4EEC;&#x6765;&#x770B;&#x4E00;&#x770B;&#x6548;&#x679C;&#xFF1A;</p>
-<p><a href="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;8.gif" data-lightbox="71864ac4-ec59-446b-bbdf-2541fdb3b0b1" data-title="&#x6570;&#x636E;&#x5173;&#x8054;8"><img src="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;8.gif" alt="&#x6570;&#x636E;&#x5173;&#x8054;8"></a></p>
+<p><a href="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;8.gif" data-lightbox="cd0d4220-78fd-45a4-88c1-22d139bd355f" data-title="&#x6570;&#x636E;&#x5173;&#x8054;8"><img src="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;8.gif" alt="&#x6570;&#x636E;&#x5173;&#x8054;8"></a></p>
 <h2 id="4-&#x8FDB;&#x4E00;&#x6B65;&#x4F18;&#x5316;">4. &#x8FDB;&#x4E00;&#x6B65;&#x4F18;&#x5316;</h2>
 <p>&#x5F53;&#x7136;&#xFF0C;&#x6848;&#x4F8B;&#x4E2D;&#x7684;&#x300C;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#x300D;&#x662F;&#x4E0D;&#x505A;&#x8BBE;&#x7F6E;&#xFF0C;&#x8BA9;&#x586B;&#x8868;&#x7684;&#x4EBA;&#x76F4;&#x63A5;&#x5F55;&#x5165;&#x7684;&#x3002;&#x5982;&#x679C;&#x4E0D;&#x60F3;&#x5F55;&#x5165;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x7528;&#x4E0B;&#x62C9;&#x6846;&#xFF0C;&#x8BBE;&#x7F6E;&#x5173;&#x8054;&#x5176;&#x4ED6;&#x8868;&#x5355;&#x6570;&#x636E;&#xFF0C;&#x76F4;&#x63A5;&#x8C03;&#x7528;&#x4EBA;&#x4E8B;&#x4FE1;&#x606F;&#x8868;&#x4E2D;&#x7684;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#x5B57;&#x6BB5;&#x3002;&#x8FD9;&#x6837;&#xFF0C;&#x586B;&#x8868;&#x4EBA;&#x5C31;&#x4E0D;&#x9700;&#x8981;&#x81EA;&#x884C;&#x5F55;&#x5165;&#x5458;&#x5DE5;&#x7F16;&#x53F7;&#xFF0C;&#x76F4;&#x63A5;&#x70B9;&#x5F00;&#x4E0B;&#x62C9;&#x6846;&#xFF0C;&#x8FDB;&#x884C;&#x9009;&#x62E9;&#x5C31;&#x597D;&#x4E86;&#x3002;</p>
-<p><a href="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;9.jpg" data-lightbox="1b362cfa-786c-4635-a612-e6d454e979a0" data-title="&#x6570;&#x636E;&#x5173;&#x8054;9"><img src="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;9.jpg" alt="&#x6570;&#x636E;&#x5173;&#x8054;9"></a></p>
+<p><a href="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;9.jpg" data-lightbox="b32497e0-54b7-4054-8ad2-1fe1cc009d7e" data-title="&#x6570;&#x636E;&#x5173;&#x8054;9"><img src="../assets/&#x8BBE;&#x8BA1;&#x9875;&#x9762;/&#x6570;&#x636E;&#x5173;&#x8054;9.jpg" alt="&#x6570;&#x636E;&#x5173;&#x8054;9"></a></p>
 <p><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"></p>
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <div id="gitalk-container"></div>
@@ -889,7 +935,7 @@
 	<script>
 		var gitbook = gitbook || [];
 		gitbook.push(function() {
-			gitbook.page.hasChanged({"page":{"title":"一级联动","level":"1.3.2.2","depth":3,"next":{"title":"多级联动","level":"1.3.2.3","depth":3,"path":"基础设置/多级联动.md","ref":"基础设置/多级联动.md","articles":[]},"previous":{"title":"数据联动规则","level":"1.3.2.1","depth":3,"path":"基础设置/数据联动规则.md","ref":"基础设置/数据联动规则.md","articles":[]},"dir":"ltr"},"config":{"plugins":["hide-element","expandable-chapters-small","expandable-chapters","todo","chapter-fold","splitter","-lunr","-search","search-pro","emphasize","pageview-count","tbfed-pagefooter","popup","-sharing","sharing-plus","fontsettings","favicon-absolute","lightbox","sectionx","page-treeview","auto-scroll-table","code","prism","change_girls","theme-fexa"],"root":".","styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy cd.sysdsoft.cn:4000","modify_label":"修订时间：","modify_format":"YYYY-MM-DD"},"page-treeview":{"copyright":"Copyright &#169; aleen42","minHeaderCount":"2","minHeaderDeep":"2"},"chapter-fold":{},"prism":{},"emphasize":{},"todo":{},"splitter":{},"change_girls":{"time":5,"urls":["/背景图.png"]},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"auto-scroll-table":{},"popup":{},"theme-fexa":{"search-placeholder":"输入关键字搜索","logo":"/logo.png","favicon":"/favicon.ico"},"code":{"copyButtons":true},"favicon-absolute":{"favicon":"/favicon.ico","appleTouchIconPrecomposed152":"/apple-touch-icon-precomposed-152.png","appleTouchIconMore":{},"appleTouchIconPrecomposedMore":{}},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"family":"sans","size":2,"theme":"white"},"sectionx":{},"highlight":{},"lightbox":{"jquery":true,"sameUuid":false},"pageview-count":{},"expandable-chapters-small":{},"sharing":{"qq":true,"all":["qq","qzone"],"douban":false,"facebook":false,"weibo":false,"twitter":false,"pocket":false,"google":false,"qzone":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"url":"/logo.png","style":"background: none; max-height: 40px; min-height: 83px"},"expandable-chapters":{}},"theme":"default","author":"思源时代","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"themeFexa":{"nav":[{"url":"http://cd.sysdsoft.cn:10003/#/formViewList?userId=475FC3FA-9833-416D-A1C5-E1E885E24C23&userOrgDutyId=90BF1987-E638-42BB-B491-69EF774FF1FD&feopapi1=userOrgDutyId,userId,platform&feopapi2=userOrgDutyId,userId&platform=NPF","target":"_blank","name":"测试服"}]}},"title":"微表单","language":"zh-hans","gitbook":"*","description":"微表单使用帮助手册"},"file":{"path":"基础设置/一级联动.md","mtime":"2020-02-08T14:17:50.386Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-09T05:08:50.141Z"},"basePath":"..","book":{"language":""}});
+			gitbook.page.hasChanged({"page":{"title":"一级联动","level":"1.3.2.2","depth":3,"next":{"title":"多级联动","level":"1.3.2.3","depth":3,"path":"基础设置/多级联动.md","ref":"基础设置/多级联动.md","articles":[]},"previous":{"title":"数据联动规则","level":"1.3.2.1","depth":3,"path":"基础设置/数据联动规则.md","ref":"基础设置/数据联动规则.md","articles":[]},"dir":"ltr"},"config":{"plugins":["hide-element","expandable-chapters-small","expandable-chapters","todo","chapter-fold","splitter","-lunr","-search","search-pro","emphasize","pageview-count","tbfed-pagefooter","popup","-sharing","sharing-plus","fontsettings","favicon-absolute","lightbox","sectionx","auto-scroll-table","code","prism","change_girls","theme-fexa","livereload"],"root":".","styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy cd.sysdsoft.cn:4000","modify_label":"修订时间：","modify_format":"YYYY-MM-DD"},"page-treeview":{"copyright":"Copyright &#169; aleen42","minHeaderCount":"2","minHeaderDeep":"2"},"chapter-fold":{},"prism":{},"emphasize":{},"livereload":{},"todo":{},"splitter":{},"change_girls":{"time":5,"urls":["/背景图.png"]},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"auto-scroll-table":{},"popup":{},"theme-fexa":{"search-placeholder":"输入关键字搜索","logo":"/logo.png","favicon":"/favicon.ico"},"code":{"copyButtons":true},"favicon-absolute":{"favicon":"/favicon.ico","appleTouchIconPrecomposed152":"/apple-touch-icon-precomposed-152.png","appleTouchIconMore":{},"appleTouchIconPrecomposedMore":{}},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"family":"sans","size":2,"theme":"white"},"sectionx":{},"highlight":{},"lightbox":{"jquery":true,"sameUuid":false},"pageview-count":{},"expandable-chapters-small":{},"sharing":{"qq":true,"all":["qq","qzone"],"douban":false,"facebook":false,"weibo":false,"twitter":false,"pocket":false,"google":false,"qzone":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"insert-logo":{"url":"/logo.png","style":"background: none; max-height: 40px; min-height: 83px"},"expandable-chapters":{}},"theme":"default","author":"思源时代","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"themeFexa":{"nav":[{"url":"http://cd.sysdsoft.cn:10003/#/formViewList?userId=475FC3FA-9833-416D-A1C5-E1E885E24C23&userOrgDutyId=90BF1987-E638-42BB-B491-69EF774FF1FD&feopapi1=userOrgDutyId,userId,platform&feopapi2=userOrgDutyId,userId&platform=NPF","target":"_blank","name":"测试服"}]}},"title":"微表单","language":"zh-hans","gitbook":"*","description":"微表单使用帮助手册"},"file":{"path":"基础设置/一级联动.md","mtime":"2020-02-08T14:17:50.386Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-20T05:15:16.020Z"},"basePath":"..","book":{"language":""}});
 		});
 	</script>
 </div>
@@ -960,6 +1006,10 @@
     
         
         <script src="../gitbook/gitbook-plugin-change_girls/girls.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
         
     
         
