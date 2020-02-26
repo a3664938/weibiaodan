@@ -35,7 +35,7 @@ POST
 |  参数名 | 必选  | 类型  | 说明  | 枚举项  |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |formInstanceId||string|表单实例Id||
-|formTemplateId||string|表单模板Id||
+|formId||string|表单模板Id||
 |voucherTemplateId||string|(预留暂不用)||
 |formData||object|表单数据||
 |isValid||bool|查询状态||
