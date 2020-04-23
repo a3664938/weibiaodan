@@ -44,3 +44,4 @@
 	* [根据表名及字段名查询数据](接口文档/QueryTableExternal.md)
 	* [根据模板Id及条件获取数据](接口文档/QueryTableTreeByTemplateId.md)
 	* [根据流程Id获取数据](接口文档/QueryTableTreeByWorkFlowId.md)
+	* [根据表单实例Id获取数据](接口文档/QueryTableTreeByFormInstanceId.md)
