@@ -17,37 +17,56 @@ POST
 
 ##Header参数：
 
-  参数名 | 必选  | 类型  | 说明  | 枚举项  
- ------------ | ------------ | ------------ | ------------ | ------------ 
- Content-Type  |  是 | string  |  请求类型 | application/json  
+|  参数名 | 必选  | 类型  | 说明  | 枚举项  |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| Content-Type  |  是 | string  |  请求类型 | application/json  |
 
 ##参数：
 
-  参数名 | 必选  | 类型  | 说明  | 枚举项  
- ------------ | ------------ | ------------ | ------------ | ------------ 
- WorkFlowId  | 是  | string  | 流程实例Id  |   
- FormInstanceId  | 是  | string  | 表单实例Id  |   
+|  参数名 | 必选  | 类型  | 说明  | 枚举项  |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| WorkFlowId  | 是  | string  | 流程实例Id  |   |
+| FormInstanceId  | 是  | string  | 表单实例Id  |   |
+| FilterConditions  |   | Array  | 过滤条件  |   |
+
+### filterConditions中的参数
+
+|  参数名 | 必选  | 类型  | 说明  | 枚举项  |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| TableName  | 是  | string  | 表名  |   |
+| FieldName  | 是  | string  | 字段名  |   |
+| FieldValues  | 是  | Array  | 字段值  |   |
 
 ##参数示例：
 
-    {"WorkFlowId":"1229e4ed314b4266abe81fa5013533ac"}
+    {
+      "workFlowId":"2ae209737cec464da420d8447bf8989b",
+      "filterConditions":
+      [
+          {
+              "tableName":"UTb202005261153901593298095",
+              "fieldName":"fld202005261153121831272148",
+              "fieldValues":["450961ec-ec45-ae2c-313b-a96294a3f3c1","144efa3a-42ec-5425-9dc2-1e3afedd7a2e"]
+          }
+      ]
+    }
 
 ##返回参数：
 
-  参数名 | 必选  | 类型  | 说明  | 枚举项  
- ------------ | ------------ | ------------ | ------------ | ------------ 
-isValid||bool|查询状态|
-errorMessages||string|错误信息|
-data||string|返回数据|
+|  参数名 | 必选  | 类型  | 说明  | 枚举项  |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+|isValid||bool|查询状态||
+|errorMessages||string|错误信息||
+|data||string|返回数据||
 
 ###返回数据中的参数：
 
-  参数名 | 必选  | 类型  | 说明  | 枚举项  
- ------------ | ------------ | ------------ | ------------ | ------------ 
-formInstanceId||string|表单实例Id|
-formId||string|表单模板Id|
-voucherTemplateId||string|(预留暂不用)|
-formData||object|表单数据|
+|  参数名 | 必选  | 类型  | 说明  | 枚举项  |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+|formInstanceId||string|表单实例Id||
+|formId||string|表单模板Id||
+|voucherTemplateId||string|(预留暂不用)||
+|formData||object|表单数据||
 
 ##返回示例：
 

@@ -26,7 +26,10 @@ POST
 | ------------ | ------------ | ------------ | ------------ | ------------
 | WorkFlowId  |  | string  | 流程实例Id  |
 | FormInstanceId  |   | string  | 表单实例Id  |
-| State  | 是  | string  | 读写权限字段(readOnly) |
+| UserId  |  是 | string  | 用户Id|
+| UserOrgDutyId  | 是  | string  | 机构职责Id|
+| DutyId | 是  | string  | 职责Id|
+| State  |   | string  | 读写权限字段(readOnly) |
 | Paltform  | 是  | string  | 默认NPF  |
 
 (WorkFlowId与FormInstanceId二选一，都传默认使用WorkFlowId)
@@ -34,9 +37,11 @@ POST
 ##参数示例：
 
     {
-    	"FormInstanceId":"01af4d49-3d9c-f0fe-17e9-0f9106a5bb02",
-    	"State":"readOnly",
-    	"Platform":"NPF"
+      "WorkFlowId":"c53e6105cb7a462086fe92214ba0c409",
+      "UserId":"744f91cf-927c-4078-a23f-251a2dcea690",
+      "UserOrgDutyId":"736923f0-b0c8-485c-94e3-00dbffa05776",
+      "DutyId":"3e628127-1212-4609-8209-7bca0b6987f1",
+      "Platform":"NPF"
     }
 
 
@@ -51,5 +56,5 @@ POST
       "errorProperty": "",
       "errorMessages": "",
       "errorType": 0,
-      "data": "http://cd.sysdsoft.cn:10003/#/formrelease?formTemplateType=1&formTemplateId=fcabd43f-4ee0-4b4a-c44e-fe3bda7c8a7c&state=readOnly&tabId=146def65-8200-43df-a4c6-c98747308ec1"
+      "data": "http://localhost:8888/#/formrelease?feopapi1=userOrgDutyId,userId,platform&feopapi2=userOrgDutyId,userId&platform=NPF&userId=744f91cf-927c-4078-a23f-251a2dcea690&dutyId=3e628127-1212-4609-8209-7bca0b6987f1&userOrgDutyId=736923f0-b0c8-485c-94e3-00dbffa05776&formTemplateType=1&sourceType=preview&formTemplateId=fcabd43f-4ee0-4b4a-c44e-fe3bda7c8a7c&wfInstanceId=c53e6105cb7a462086fe92214ba0c409&tabId=4d62ead2-71dd-4e00-ba3e-9cfb4e4b16e3&inst=060dfb58-7b11-4783-436a-40729d28bbe4"
     }

@@ -1,4 +1,4 @@
-#根据流程Id获取对应实例下全部数据(树形)
+﻿#根据流程Id获取对应实例下全部数据(树形)
 
 QueryTableTreeByWorkFlowId
 
@@ -22,13 +22,32 @@ POST
 
 ##参数：
 
-  参数名 | 必选  | 类型  | 说明  | 枚举项  
- ------------ | ------------ | ------------ | ------------ | ------------
- EntityId  | 是  | string  | 流程Id  |  
+|  参数名 | 必选  | 类型  | 说明  | 枚举项  |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| WorkFlowId  | 是  | string  | 流程实例Id  |   |
+| FilterConditions  |   | Array  | 过滤条件  |   |
+
+### filterConditions中的参数
+
+|  参数名 | 必选  | 类型  | 说明  | 枚举项  |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| TableName  | 是  | string  | 表名  |   |
+| FieldName  | 是  | string  | 字段名  |   |
+| FieldValues  | 是  | Array  | 字段值  |   |
 
 ##参数示例：
 
-    {"EntityId":"ec76b10f0c5f44f39bc3f2e02d5e9275"}
+    {
+      "workFlowId":"2ae209737cec464da420d8447bf8989b",
+      "filterConditions":
+      [
+          {
+              "tableName":"UTb202005261153901593298095",
+              "fieldName":"fld202005261153121831272148",
+              "fieldValues":["450961ec-ec45-ae2c-313b-a96294a3f3c1","144efa3a-42ec-5425-9dc2-1e3afedd7a2e"]
+          }
+      ]
+    }
 
 ##返回参数：
 
