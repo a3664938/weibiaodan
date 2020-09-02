@@ -24,11 +24,11 @@ POST
 
   参数名 | 必选  | 类型  | 说明  | 枚举项  
  ------------ | ------------ | ------------ | ------------ | ------------ 
- EntityId  | 是  | string  | 表单实例Id  |   
+ FormInstanceId  | 是  | string  | 表单实例Id  |   
 
 ##参数示例：
 
-    {"EntityId":"ec76b10f0c5f44f39bc3f2e02d5e9275"}
+    {"FormInstanceId":"ec76b10f0c5f44f39bc3f2e02d5e9275"}
 
 ##返回参数：
 

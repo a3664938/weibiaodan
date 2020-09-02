@@ -24,7 +24,7 @@ POST
 
 |  参数名 | 必选  | 类型  | 说明  | 枚举项  |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-| WorkFlowId  | 是  | string  | 流程实例Id  |   |
+| EntityId  | 是  | string  | 流程实例Id  |   |
 | FilterConditions  |   | Array  | 过滤条件  |   |
 
 ### filterConditions中的参数
@@ -38,7 +38,7 @@ POST
 ##参数示例：
 
     {
-      "workFlowId":"2ae209737cec464da420d8447bf8989b",
+      "EntityId":"2ae209737cec464da420d8447bf8989b",
       "filterConditions":
       [
           {
